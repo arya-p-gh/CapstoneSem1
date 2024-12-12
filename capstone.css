@@ -1,0 +1,91 @@
+.main{
+    width: Fixed (1,440px)px;
+    height: Hug (4,003px)px;
+    min-height: 900px;
+    top: -1529px;
+    left: -97px;
+    padding: 0px 48px 0px 48px;
+    gap: 0px;
+    opacity: 0px;
+    background: #0D0A02;
+
+}
+.header{
+    width: Fill (1,344px)px;
+    height: Hug (96px)px;
+    padding: 24px 0px 0px 0px;
+    gap: 8px;
+    opacity: 0px;
+    background: #0D0A02;
+
+}
+.headercontainer{
+    width: Fixed (1,080px)px;
+    display: flex;
+    height: Hug (72px)px;
+    padding: 24px 32px 24px 32px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    justify-content: space-between;
+    opacity: 0px;
+    background: #F9DC9533;
+}
+.pagelinks{
+    width: Hug (224px)px;
+    height: Hug (24px)px;
+    gap: 32px;
+    opacity: 0px;
+
+}
+#home{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+}
+#projects{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;    
+}
+#about{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+}
+.logo{
+    width: Hug (338px)px;
+    height: Fixed (72px)px;
+    gap: 12px;
+    opacity: 0px;
+    
+}
+#icon{
+    font-family: serif 4;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+}
