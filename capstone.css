@@ -25,9 +25,9 @@
     height: Hug (72px)px;
     padding: 24px 32px 24px 32px;
     gap: 0px;
-    border-radius: 16px 0px 0px 0px;
+    border-radius: 16px ;
     border: 1.5px 0px 0px 0px;
-    justify-content: space-between;
+    justify-content: space-around;
     opacity: 0px;
     background: #F9DC9533;
 }
@@ -88,4 +88,582 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #E4E1D7;
+}
+.socials{
+    width: Hug (62px)px;
+    height: Hug (24px)px;
+    gap: 32px;
+    opacity: 0px;
+    color: #E4E1D7;
+}
+#contact{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.container{
+    width: Fill (1,344px)px;
+    height: Hug (3,739px)px;
+    padding: 48px 0px 48px 0px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.maincontent{
+    width: Fill (1,344px)px;
+    height: Hug (3,643px)px;
+    gap: 0px;
+    opacity: 0px;
+        
+}
+.landingpagehero{
+    width: Fill (1,344px)px;
+    height: Hug (1,152px)px;
+    padding: 96px 0px 96px 0px;
+    gap: 48px;
+    border: 0px 0px 1.5px 0px;
+    opacity: 0px;
+    background-color: #0D0A02;
+
+}
+.landingpagehero h1{
+    font-family: Roboto Serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.landingpagehero img{
+    width: 1344px;
+    height: 672px;
+    gap: 0px;
+    border-radius: 28px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.projectoverviewcollage{
+    width: Fill (1,344px)px;
+    height: Hug (1,191px)px;
+    gap: 0px;
+    border: 0px 0px 1.5px 0px;
+    opacity: 0px;
+}
+.projectoverviewcollage row1{
+    width: Fill (1,344px)px;
+    height: Hug (429px)px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+    background: #0D0A02;
+
+}
+.projectoverviewcollage row2{
+    width: Fill (1,344px)px;
+    height: Hug (381px)px;
+    padding: 0px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+    background: #0D0A02;
+   
+}
+.projectoverviewcollage row3{
+    width: Fill (1,344px)px;
+    height: Hug (381px)px;
+    padding: 0px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+    background: #0D0A02;
+
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+.project1{
+    width: Fill (416px)px;
+    height: Fixed (333px)px;
+    gap: 8px;
+    opacity: 0px;
+    
+}
+.project2{
+    width: Fill (416px)px;
+    height: Fixed (333px)px;
+    gap: 8px;
+    opacity: 0px;
+    
+}
+.project3{
+    width: Fill (416px)px;
+    height: Fixed (333px)px;
+    gap: 8px;
+    opacity: 0px;
+    
+}
+.project1 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.project1 h5{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.project1 p{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EBE3D19E;
+    
+}
+.project2 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.project2 h5{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.project2 p{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EBE3D19E;
+    
+}
+.project3 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.project3 h5{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.project3 p{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EBE3D19E;
+    
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+.project4 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.project4 h5{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.project4 p{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EBE3D19E;
+    
+}
+.project5 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.project5 h5{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.project5 p{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EBE3D19E;
+    
+}
+.project6 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.project6 h5{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.project6 p{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EBE3D19E;
+    
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+}
+.project7 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.project7 h5{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.project7 p{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EBE3D19E;
+}
+.project8 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.project8 h5{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.project8 p{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EBE3D19E;
+}
+.project9 img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+    border-top: 1.5px solid #000000    
+}
+.project9 h5{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Public Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+    
+}
+.project9 p{
+    font-family: Public Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EBE3D19E;
+}
+.portfolioabout{
+    width: Fill (1,344px)px;
+    height: Hug (400px)px;
+    padding: 96px 0px 96px 0px;
+    gap: 0px;
+    border: 0px 0px 1.5px 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolioabout h1{
+    font-family: Roboto Serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 900px;
+    height: 208px;
+    max-width: 900px;
+    gap: 0px;
+    opacity: 0px;
+    color: #E4E1D7;
+        
+
+}
+.portfoliotextpara{
+    width: Fill (1,344px)px;
+    height: Hug (256px)px;
+    padding: 48px 0px 48px 0px;
+    gap: 48px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.spacer{
+    width: 648px;
+    height: 154px;
+    gap: 0px;ß
+    opacity: 0px;
+    
+}
+.portfoliotextpara p{
+    font-family: Public Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+
+}
+.testimonialcarousal{
+    width: 1260px;
+    height: 52px;
+    max-width: 1260px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto Serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #E4E1D7;
+
+}
+.testimonialcards{
+    width: Fill (1,344px)px;
+    height: Hug (168px)px;
+    gap: 24px;
+    opacity: 0px;
+    
 }
