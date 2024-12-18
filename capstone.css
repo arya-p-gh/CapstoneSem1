@@ -330,3 +330,17 @@ footer button {
     text-decoration-skip-ink: none;
     
 }
+.about {
+    padding: 156px 10px;
+    text-align: center;
+    text-wrap: wrap;
+  }
+  .about div {
+    display: flex;
+    justify-content: center;
+  }
+  .about div h2 {
+    width: 75%;
+    text-align: center;
+    font-size: 45px;
+  }
