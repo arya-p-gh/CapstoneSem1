@@ -80,8 +80,7 @@ nav .nav-links a {
 }
 
 .ending div div {
-  /* text-align: justify; */
-  width: 70vw; /*Remove While making it Resposive*/
+  width: 70vw; 
   font-size: 30px;
 }
 .ending h2 {
