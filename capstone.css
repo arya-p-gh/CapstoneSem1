@@ -209,6 +209,95 @@ footer button {
   border-radius: 8px;
   cursor: pointer;
 }
+#mainheading{
+  margin-right: 160px;
+  font-family: serif;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.smolpicfoots{
+  color: rgba(235, 227, 209, 0.62);
+}
+.bigpicfoots{
+  color: rgba(228, 225, 215, 1);
+}
+#beechkapara{
+  text-align: center;
+}
+#beechkapara p{
+  font-family: serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+#neechekacopyright{
+  font-family: serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+.about {
+  padding: 156px 10px;
+  text-align: center;
+  text-wrap: wrap;
+}
+.about div {
+  display: flex;
+  justify-content: center;
+}
+.about div h2 {
+  width: 75%;
+  text-align: center;
+  font-size: 45px;
+}
+.whatioffer{
+  display:flex;
+  justify-content: space-between;
+  padding: 48px ;
+}
+.wioandar{
+  display: flex;
+  flex-direction: row;
+}
+.wiolists li{
+  list-style-type: none;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  width: 42vh;
+  height: 5vh;
+  
+}
+.wiohead{
+  font-family: serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
 
 @media (max-width: 1239px) {
   .header h1 {
@@ -288,90 +377,11 @@ footer button {
   .ending div h2 {
     font-size: 20px;
   }
-}
-#mainheading{
-    margin-right: 160px;
-    font-family: serif;
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 42px;
-    letter-spacing: -0.04em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-}
-.smolpicfoots{
-    color: rgba(235, 227, 209, 0.62);
-}
-.bigpicfoots{
-    color: rgba(228, 225, 215, 1);
-}
-#beechkapara{
-    text-align: center;
-}
-#beechkapara p{
-    font-family: serif;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 52px;
-    letter-spacing: -0.02em;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-}
-#neechekacopyright{
-    font-family: serif;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    
-}
-.about {
-    padding: 156px 10px;
-    text-align: center;
-    text-wrap: wrap;
-  }
-  .about div {
-    display: flex;
-    justify-content: center;
-  }
-  .about div h2 {
-    width: 75%;
-    text-align: center;
-    font-size: 45px;
-  }
   .whatioffer{
-    display:flex;
-    justify-content: space-between;
-    padding: 48px ;
+    flex-direction: column;
   }
   .wioandar{
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
-  .wiolists{
-    list-style-type: none;
-    font-family: serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: -0.005em;
-    text-align: left;
-    text-decoration-skip-ink: none;
-    
   }
-  .wiohead{
-    font-family: serif;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 32px;
-    letter-spacing: -0.02em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
 
-  }
